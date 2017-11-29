@@ -9,6 +9,8 @@ int main()
     cout << "Hello World!" << endl;
     
     cout << "test" << endl;
+    
+    cout << "nytt test" << endl;
 
     return 0;
 }
