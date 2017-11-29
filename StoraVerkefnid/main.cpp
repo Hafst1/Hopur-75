@@ -1,16 +1,13 @@
 #include <iostream>
+#include <fstream>
+#include "MainUI.h"
+#include "Pizza.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Git er snilld" << endl;
-
-    cout << "Hello World!" << endl;
-    
-    cout << "test" << endl;
-    
-    cout << "nytt test" << endl;
+    MainUI mainui;
 
     return 0;
 }
