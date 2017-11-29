@@ -11,6 +11,8 @@ int main()
     cout << "test" << endl;
     
     cout << "nytt test" << endl;
+    
+    cout << "testtest" << endl;
 
     return 0;
 }
