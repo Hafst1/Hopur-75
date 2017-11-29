@@ -32,6 +32,7 @@ void Pizza::addTopping(Topping topping) {
 }
 istream& operator >>(istream& in, Pizza& pizza) {
 
+
     return in;
 }
 ostream& operator <<(ostream& out, const Pizza& pizza) {

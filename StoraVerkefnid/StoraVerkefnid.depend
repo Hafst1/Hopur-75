@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1511973880 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\pizza.cpp
+1511988910 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\pizza.cpp
 	"Pizza.h"
 	<stddef.h>
 
@@ -14,16 +14,19 @@
 	"Pizza.h"
 	"Topping.h"
 
-1511967927 c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\include\mainui.h
+1511988910 c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\include\mainui.h
 	<iostream>
+	"PizzaUI.h"
 
-1511969426 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\mainui.cpp
+1511988910 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\mainui.cpp
 	"MainUI.h"
 
-1511973283 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\topping.cpp
+1511973902 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\topping.cpp
 	<string.h>
 	"Topping.h"
 
 1511973902 c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\include\topping.h
 	<iostream>
+
+1511988910 c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\include\pizzaui.h
 

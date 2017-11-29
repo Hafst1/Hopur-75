@@ -16,12 +16,17 @@ void MainUI::startUI(){
 
     while (selection != 'q'){
 
+        cout << "p: make pizza" << endl;
         cout << "w: write" << endl;
         cout << "r: read" << endl;
         cout << "q: quit" << endl;
 
         cin >> selection;
 
+        if (selection == 'p'){
+            PizzaUI pizzaui;
+            pizzaui.startUI();
+        }
         if (selection == 'w'){
 
 
