@@ -6,11 +6,23 @@ using namespace std;
 
 class Pizza
 {
-    public:
-        Pizza();
-        virtual ~Pizza();
+public:
+    Pizza();
+    Pizza(int numberOfToppings);
+    virtual ~Pizza();
 
-    private:
+    void addTopping(Topping topping);
+
+friend istream& operator >>(istream& in, Pizza& pizza);
+friend ostream& operator <<(ostream& out, const Pizza& pizza);
+
+protected:
+
+private:
+    Topping *toppings;
+    int toppingCount;
+
+    int currentToppingNum;
 };
 
 #endif // PIZZA_H
