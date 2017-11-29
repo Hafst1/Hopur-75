@@ -10,15 +10,16 @@ Pizza::Pizza() {
 
 }
 
-Pizza:Pizza(int numberOfToppings) {
+Pizza::Pizza(int numberOfToppings) {
     toppingCount = numberOfToppings;
     toppings = new Topping[toppingCount];
     currentToppingNum = 0;
 }
 
 Pizza::~Pizza() {
+
     if(toppings != NULL) {
-    delete[] toppings;
+        delete[] toppings;
     }
 }
 
@@ -31,13 +32,13 @@ void Pizza::addTopping(Topping topping) {
 }
 istream& operator >>(istream& in, Pizza& pizza) {
 
-  return in;
+    return in;
 }
 ostream& operator <<(ostream& out, const Pizza& pizza) {
 
-  out << "Pizza with toppings:" << endl;
-  for(int i = 0; i < pizza.toppingCount; i++) {
-    pizza.toppings[i] << endl;
+    out << "Pizza with toppings:" << endl;
+    for(int i = 0; i < pizza.toppingCount; i++) {
+        out << pizza.toppings[i] << endl;
   }
-  return out;
+    return out;
 }
