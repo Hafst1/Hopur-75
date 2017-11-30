@@ -34,7 +34,7 @@ void MainUI::startUI(){
         }
         else if (selection == 'd'){
 
-        cout << "Displaying ordered pizzas: " << endl;
+        cout << "Displayy ordered pizzas: " << endl;
         }
     }
 
