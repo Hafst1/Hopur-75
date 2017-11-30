@@ -15,7 +15,7 @@ PizzaRepository::~PizzaRepository()
 void PizzaRepository::storePizza(const Pizza& pizza) {
 
     ofstream fout;
-    fout.open("pizzas.txt");
+    fout.open("pizzas.txt", ios::app);
 
     fout << pizza;
 
@@ -24,14 +24,17 @@ void PizzaRepository::storePizza(const Pizza& pizza) {
 
 Pizza PizzaRepository::retrivePizza() {
 
-    ifstream fin;
-    fin.open("pizzas.txt");
+    ifstream fin("pizzas.txt");
 
     Pizza pizza;
-    fin >> pizza;
+
+    if (fin.is_open()) {
+        cout << fin.rdbuf();
+    }
 
     fin.close();
 
     return pizza;
 
 }
+

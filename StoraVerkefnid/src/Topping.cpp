@@ -19,10 +19,10 @@ Topping::~Topping()
 
 istream& operator >> (istream& in, Topping& topping){
 
-    //cout << "Name: ";
+    cout << "Name: ";
     in >> topping.name;
 
-    //cout << "Price: ";
+    cout << "Price: ";
     in >> topping.price;
 
     return in;
