@@ -4,3 +4,6 @@ sveppir 17
 Pizza with toppings: 2
 pepperoni 30
 piparostur 19
+Pizza with toppings: 2
+skinka 29
+sveppir 15
