@@ -17,17 +17,20 @@ Topping::~Topping()
     //dtor
 }
 
+istream& operator >> (istream& in, Topping& topping){
+
+    //cout << "Name: ";
+    in >> topping.name;
+
+    //cout << "Price: ";
+    in >> topping.price;
+
+    return in;
+}
+
 ostream& operator << (ostream& out, const Topping& topping){
 
     out << topping.name << " " << topping.price;
 
     return out;
 }
-
-/*istream& operator >> (istream& in, Topping& topping){
-
-    cout << "How many topings do you want: ";
-
-
-    return in;
-}*/

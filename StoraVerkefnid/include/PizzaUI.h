@@ -1,6 +1,10 @@
 #ifndef PIZZAUI_H
 #define PIZZAUI_H
+#include <iostream>
+#include "Pizza.h"
+#include "PizzaRepository.h"
 
+using namespace std;
 
 class PizzaUI
 {
@@ -13,6 +17,7 @@ class PizzaUI
     protected:
 
     private:
+        //PizzaRepository pizzarepo;
 };
 
 #endif // PIZZAUI_H

@@ -1,32 +1,44 @@
 # depslib dependency file v1.0
-1511988910 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\pizza.cpp
+1512044490 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\pizza.cpp
 	"Pizza.h"
 	<stddef.h>
 
-1511973283 c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\include\pizza.h
+1512041802 c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\include\pizza.h
 	"Topping.h"
 	<iostream>
 
-1511971008 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\main.cpp
+1512001770 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\main.cpp
 	<iostream>
 	<fstream>
 	"MainUI.h"
-	"Pizza.h"
-	"Topping.h"
 
 1511988910 c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\include\mainui.h
 	<iostream>
 	"PizzaUI.h"
 
-1511988910 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\mainui.cpp
+1512045884 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\mainui.cpp
 	"MainUI.h"
 
-1511973902 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\topping.cpp
+1512044041 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\topping.cpp
 	<string.h>
 	"Topping.h"
 
-1511973902 c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\include\topping.h
+1511994895 c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\include\topping.h
 	<iostream>
 
-1511988910 c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\include\pizzaui.h
+1512046548 c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\include\pizzaui.h
+	<iostream>
+	"Pizza.h"
+	"PizzaRepository.h"
+
+1512046538 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\pizzaui.cpp
+	"PizzaUI.h"
+
+1512046334 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\pizzarepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+
+1512001771 c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\include\pizzarepository.h
+	"Pizza.h"
+	<fstream>
 

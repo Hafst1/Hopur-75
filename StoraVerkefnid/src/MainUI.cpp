@@ -16,7 +16,7 @@ void MainUI::startUI(){
 
     while (selection != 'q'){
 
-        cout << "p: make pizza" << endl;
+        cout << "p: pizzas" << endl;
         cout << "w: write" << endl;
         cout << "r: read" << endl;
         cout << "q: quit" << endl;
@@ -26,14 +26,15 @@ void MainUI::startUI(){
         if (selection == 'p'){
             PizzaUI pizzaui;
             pizzaui.startUI();
+        cout << endl;
         }
         if (selection == 'w'){
 
-
+        cout << endl;
         }
         else if (selection == 'r'){
 
-
+        cout << endl;
         }
     }
 

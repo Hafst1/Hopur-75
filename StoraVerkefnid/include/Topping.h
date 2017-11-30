@@ -12,7 +12,7 @@ class Topping
         virtual ~Topping();
 
         friend ostream& operator << (ostream& out, const Topping& topping);
-        //friend istream& operator >> (istream& in, Topping& topping);
+        friend istream& operator >> (istream& in, Topping& topping);
 
     private:
         char name[32];
