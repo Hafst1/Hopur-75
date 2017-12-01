@@ -15,12 +15,20 @@ void PizzaUI::startUI(){
     char selection = '\0';
 
     cout << "m: make pizza" << endl;
-    cout << "r: read pizza" << endl;
 
     cin >> selection;
 
     if (selection == 'm'){
         int topCnt;
+        int size = 0;
+
+        cout << "1. Small" << endl;
+        cout << "2. Medium" << endl;
+        cout << "3. Large" << endl;
+        cout << "Size: ";
+        cin >> size;
+
+
 
         cout << "How many toppings: ";
         cin >> topCnt;
@@ -40,11 +48,10 @@ void PizzaUI::startUI(){
         repo.storePizza(pizza);
         cout << endl;
     }
-        if (selection == 'r'){
-
-        PizzaRepository repo;
-        Pizza pizza = repo.retrivePizza();
-        cout << pizza;
-        cout << endl;
-        }
+    }
+    void PizzaUI::editToppings() {
+    PizzaRepository repo;
+    Pizza pizza = repo.retrivePizza();
+    cout << pizza;
+    cout << endl;
     }
