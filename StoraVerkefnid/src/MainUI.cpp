@@ -36,6 +36,9 @@ void MainUI::startUI(){
 
         cout << "Display ordered pizzas: " << endl;
         }
+        else {
+            cout << "Wrong input!" << endl;
+        }
     }
 
 }

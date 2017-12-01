@@ -17,7 +17,7 @@
 	<iostream>
 	"PizzaUI.h"
 
-1512132758 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\mainui.cpp
+1512135272 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\mainui.cpp
 	"MainUI.h"
 
 1512047910 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\topping.cpp
@@ -35,7 +35,7 @@
 1512133419 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\pizzaui.cpp
 	"PizzaUI.h"
 
-1512131866 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\pizzarepository.cpp
+1512134590 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\pizzarepository.cpp
 	"PizzaRepository.h"
 	<fstream>
 
