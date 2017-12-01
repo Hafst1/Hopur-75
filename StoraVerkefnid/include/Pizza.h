@@ -2,6 +2,7 @@
 #define PIZZA_H
 #include "Topping.h"
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -15,6 +16,9 @@ class Pizza
         void initialize(int numberOfToppings);
         void addTopping(Topping topping);
         void clean();
+
+        void write(ofstream& fout);
+        void read(ifstream& fin);
 
     friend istream& operator >>(istream& in, Pizza& pizza);
     friend ostream& operator <<(ostream& out, const Pizza& pizza);

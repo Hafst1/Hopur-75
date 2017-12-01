@@ -46,6 +46,25 @@ void Pizza::addTopping(Topping topping) {
     }
 }
 
+///Fyrir Binary skra
+void Pizza::write(ofstream& fout){
+
+    fout.write((char*)(&toppingCount), sizeof(int));
+    fout.write((char*)toppings, sizeof(Topping) * toppingCount);
+}
+
+///Fyrir Binary skra
+void Pizza::read(ifstream& fin){
+
+    int topCnt;
+    fin.read((char*)(&topCnt), sizeof(int));
+
+    initialize(topCnt);
+
+    fin.read((char*)toppings, sizeof(Topping) * toppingCount);
+    currentToppingNum = toppingCount;
+}
+
 istream& operator >>(istream& in, Pizza& pizza) {
 
     int toppingCount;
