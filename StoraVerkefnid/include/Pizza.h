@@ -17,7 +17,7 @@ class Pizza
         void addTopping(Topping topping);
         void clean();
 
-        void write(ofstream& fout);
+        void write(ofstream& fout) const;
         void read(ifstream& fin);
 
     friend istream& operator >>(istream& in, Pizza& pizza);

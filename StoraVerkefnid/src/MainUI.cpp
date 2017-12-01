@@ -29,8 +29,8 @@ void MainUI::startUI(){
         cout << endl;
         }
         if (selection == 'e'){
-            PizzaUI chooseToppings;
-            chooseToppings.editToppings();
+            /*PizzaUI chooseToppings;
+            chooseToppings.editToppings();*/
         }
         else if (selection == 'd'){
 

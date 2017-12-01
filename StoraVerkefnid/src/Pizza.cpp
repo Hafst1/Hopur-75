@@ -47,7 +47,7 @@ void Pizza::addTopping(Topping topping) {
 }
 
 ///Fyrir Binary skra
-void Pizza::write(ofstream& fout){
+void Pizza::write(ofstream& fout) const {
 
     fout.write((char*)(&toppingCount), sizeof(int));
     fout.write((char*)toppings, sizeof(Topping) * toppingCount);
