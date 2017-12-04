@@ -1,12 +1,13 @@
 #include <iostream>
 #include <fstream>
+#include"MainUI.h"
 
 using namespace std;
 
 int main()
 {
-
-    cout << "hello world!" << endl;
+    MainUI ui;
+    ui.startUI();
 
     return 0;
 }

@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1512399458 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\models\pizza.cpp
+	"Pizza.h"
+
+1512399458 c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\include\models\pizza.h
+
+1512401813 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\ui\mainui.cpp
+	"MainUI.h"
+
+1512399772 c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\include\ui\mainui.h
+	<iostream>
+	"PizzaUI.h"
+
+1512399458 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\main.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+
+1512401887 c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\include\ui\pizzaui.h
+	<iostream>
+
+1512401959 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\storaverkefnid\src\ui\pizzaui.cpp
+	"PizzaUI.h"
+
