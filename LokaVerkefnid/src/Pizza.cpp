@@ -2,6 +2,8 @@
 
 Pizza::Pizza()
 {
+    price = 0;
+    toppings = 0;
     selection = '\0';
     small = 700;
     medium = 900;
@@ -13,19 +15,21 @@ Pizza::Pizza()
     bacon = 150;
 }
 
-
 void Pizza::chooseSize(){
 
     cin >> selection;
 
     if (selection == '1'){
-
+        price = small;
+        cout << "Small: " << price << "kr" << endl;
     }
     else if (selection == '2'){
-
+        price = medium;
+        cout << "Medium: " << price << "kr" << endl;
     }
     else if (selection == '3'){
-
+        price = large;
+        cout << "Large: " << price << "kr" << endl;
     }
     else {
         cout << "invalid input!" << endl;
@@ -38,24 +42,25 @@ void Pizza::chooseToppings(){
 
         cin >> selection;
         if(selection == '1') {
-            //tmpPizza += 200;
-            //tempTop++;
+            price += skinka;
+            toppings++;
         }
         if(selection == '2') {
-            //tmpPizza += 200;
-            //tempTop++;
+            price += pepperoni;
+            toppings++;
         }
         if(selection == '3') {
-            //tmpPizza += 100;
-            //tempTop++;
+            price += laukur;
+            toppings++;
         }
         if(selection == '4') {
-            //tmpPizza += 150;
-            //tempTop++;
+            price += bacon;
+            toppings++;
         }
         if(selection == '5'){
-            //tmpPizza += 100;
+            price += sveppir;
+            toppings++;
         }
     }
-
+    cout << "Pizza with " << toppings << " toppings: " << price << "kr";
 }

@@ -12,7 +12,10 @@ class Pizza
         void chooseSize();
         void chooseToppings();
 
+
     private:
+        int price;
+        int toppings;
         char selection;
         int small;
         int medium;
