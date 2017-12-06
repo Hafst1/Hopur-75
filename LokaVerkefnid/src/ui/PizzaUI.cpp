@@ -2,15 +2,7 @@
 
 PizzaUI::PizzaUI()
 {
-    /*selection = '\0';
-    small = 700;
-    medium = 900;
-    large = 1200;
-    skinka = 200;
-    pepperoni = 200;
-    sveppir = 100;
-    laukur = 100;
-    bacon = 150;*/
+
 }
 
 
@@ -29,5 +21,5 @@ void PizzaUI::choosePizza(){
     cout << "4: Beikon" << endl;
     cout << "5: Sveppir" << endl;
     cout << "q: quit" << endl;
-    pizza.chooseToppings();
+    pizza.chooseToppings(myVector);
 }

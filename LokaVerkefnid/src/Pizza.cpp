@@ -36,7 +36,7 @@ void Pizza::chooseSize(){
     }
 }
 
-void Pizza::chooseToppings(){
+void Pizza::chooseToppings(vector<string>& myNewVector){
 
     while (selection != 'q'){
 
@@ -44,23 +44,31 @@ void Pizza::chooseToppings(){
         if(selection == '1') {
             price += skinka;
             toppings++;
+            myNewVector.push_back("Skinka");
         }
         if(selection == '2') {
             price += pepperoni;
             toppings++;
+            myNewVector.push_back("Pepperoni");
         }
         if(selection == '3') {
             price += laukur;
             toppings++;
+            myNewVector.push_back("Laukur");
         }
         if(selection == '4') {
             price += bacon;
             toppings++;
+            myNewVector.push_back("Bacon");
         }
         if(selection == '5'){
             price += sveppir;
             toppings++;
+            myNewVector.push_back("Sveppir");
         }
     }
-    cout << "Pizza with " << toppings << " toppings: " << price << "kr";
+    cout << "Pizza with " << toppings << " toppings: " << price << "kr" << endl;
+    for(unsigned int i = 0; i < myNewVector.size(); i++) {
+        cout << myNewVector[i] << " ";
+    }
 }

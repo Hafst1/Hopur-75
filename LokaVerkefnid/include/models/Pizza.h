@@ -2,6 +2,7 @@
 #define PIZZA_H
 #include <fstream>
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -10,8 +11,7 @@ class Pizza
     public:
         Pizza();
         void chooseSize();
-        void chooseToppings();
-
+        void chooseToppings(vector<string>& myNewVector);
 
     private:
         int price;

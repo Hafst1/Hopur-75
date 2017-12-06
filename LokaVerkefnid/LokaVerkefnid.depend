@@ -8,15 +8,16 @@
 	<iostream>
 	"PizzaUI.h"
 
-1512569623 c:\users\hafst\desktop\3viknaafangi\hopur-75\lokaverkefnid\include\ui\pizzaui.h
+1512580675 c:\users\hafst\desktop\3viknaafangi\hopur-75\lokaverkefnid\include\ui\pizzaui.h
 	<iostream>
 	"Pizza.h"
 
-1512577355 c:\users\hafst\desktop\3viknaafangi\hopur-75\lokaverkefnid\include\models\pizza.h
+1512580689 c:\users\hafst\desktop\3viknaafangi\hopur-75\lokaverkefnid\include\models\pizza.h
 	<fstream>
 	<iostream>
+	<vector>
 
-1512577390 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\lokaverkefnid\src\pizza.cpp
+1512581093 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\lokaverkefnid\src\pizza.cpp
 	"Pizza.h"
 
 1512569623 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\lokaverkefnid\src\repositores\pizzarepository.cpp
@@ -29,6 +30,6 @@
 1512569623 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\lokaverkefnid\src\ui\mainui.cpp
 	"MainUI.h"
 
-1512569623 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\lokaverkefnid\src\ui\pizzaui.cpp
+1512580675 source:c:\users\hafst\desktop\3viknaafangi\hopur-75\lokaverkefnid\src\ui\pizzaui.cpp
 	"PizzaUI.h"
 

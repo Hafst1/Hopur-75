@@ -12,16 +12,7 @@ class PizzaUI
         void choosePizza();
 
     private:
-        /*char selection;
-        int small;
-        int medium;
-        int large;
-
-        int skinka;
-        int pepperoni;
-        int sveppir;
-        int laukur;
-        int bacon;*/
+        vector <string> myVector;
 };
 
 #endif // PIZZAUI_H
