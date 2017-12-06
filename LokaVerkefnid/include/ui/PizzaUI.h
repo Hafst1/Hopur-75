@@ -1,6 +1,7 @@
 #ifndef PIZZAUI_H
 #define PIZZAUI_H
 #include<iostream>
+#include "Pizza.h"
 
 using namespace std;
 
@@ -8,11 +9,10 @@ class PizzaUI
 {
     public:
         PizzaUI();
-        void chooseSize();
-        void chooseToppings();
+        void choosePizza();
 
     private:
-        char selection;
+        /*char selection;
         int small;
         int medium;
         int large;
@@ -21,7 +21,7 @@ class PizzaUI
         int pepperoni;
         int sveppir;
         int laukur;
-        int bacon;
+        int bacon;*/
 };
 
 #endif // PIZZAUI_H

@@ -1,6 +1,6 @@
-#include "PizzaUI.h"
+#include "Pizza.h"
 
-PizzaUI::PizzaUI()
+Pizza::Pizza()
 {
     selection = '\0';
     small = 700;
@@ -14,12 +14,7 @@ PizzaUI::PizzaUI()
 }
 
 
-void PizzaUI::chooseSize(){
-    //char selection;
-    cout << "Choose Size:" << endl;
-    cout << "1: Small" << endl;
-    cout << "2: Medium" << endl;
-    cout << "3: Large" << endl;
+void Pizza::chooseSize(){
 
     cin >> selection;
 
@@ -37,15 +32,7 @@ void PizzaUI::chooseSize(){
     }
 }
 
-void PizzaUI::chooseToppings(){
-
-    cout << "1: Skinka" << endl;
-    cout << "2: Pepperoni" << endl;
-    cout << "3: Laukur" << endl;
-    cout << "4: Beikon" << endl;
-    cout << "5: Sveppir" << endl;
-    cout << "q: quit" << endl;
-
+void Pizza::chooseToppings(){
 
     while (selection != 'q'){
 

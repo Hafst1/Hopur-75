@@ -15,7 +15,7 @@ void MainUI::startUI(){
 
     if(selection == '1'){
         PizzaUI pizzaui;
-        pizzaui.chooseSize();
-        pizzaui.chooseToppings();
+        pizzaui.choosePizza();
+
     }
 }

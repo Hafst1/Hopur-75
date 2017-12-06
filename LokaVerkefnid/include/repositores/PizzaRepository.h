@@ -1,14 +1,15 @@
 #ifndef PIZZAREPOSITORY_H
 #define PIZZAREPOSITORY_H
+#include "Pizza.h"
+#include <iostream>
 
+using namespace std;
 
 class PizzaRepository
 {
     public:
         PizzaRepository();
-        virtual ~PizzaRepository();
-
-    protected:
+        void storePizza(const Pizza& pizza);
 
     private:
 };
