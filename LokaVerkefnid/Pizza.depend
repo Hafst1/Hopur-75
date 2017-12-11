@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1512827235 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\main.cpp
+	<iostream>
+	"MainUI.h"
+
+1512827228 c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\include\ui\mainui.h
+	<iostream>
+	"StaffUI.h"
+	"CustomerUI.h"
+
+1512996616 c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\include\ui\staffui.h
+	<iostream>
+	"Toppings.h"
+	"Base.h"
+
+1512997664 c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\include\models\toppings.h
+	<iostream>
+	<vector>
+	<string>
+	"ToppingsRepository.h"
+
+1512997525 c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\include\repositories\toppingsrepository.h
+	<iostream>
+	<fstream>
+	<string>
+	<cmath>
+	"Toppings.h"
+
+1512997525 c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\include\ui\customerui.h
+	<iostream>
+
+1512997664 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\models\toppings.cpp
+	"Toppings.h"
+
+1512997525 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\repositories\toppingsrepository.cpp
+	"ToppingsRepository.h"
+
+1512997525 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\ui\customerui.cpp
+	"CustomerUI.h"
+
+1512997524 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\ui\mainui.cpp
+	"MainUI.h"
+
+1512997525 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\ui\staffui.cpp
+	"StaffUI.h"
+
+1512997664 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\models\base.cpp
+	"Base.h"
+
+1512994648 c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\include\models\base.h
+	<iostream>
+	<vector>
+	<string>
+	"BaseRepository.h"
+
+1512994639 c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\include\repositories\baserepository.h
+	<iostream>
+	<fstream>
+	<string>
+	<cmath>
+	"Base.h"
+
+1512997525 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\repositories\baserepository.cpp
+	"BaseRepository.h"
+

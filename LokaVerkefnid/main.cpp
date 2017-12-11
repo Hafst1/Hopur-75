@@ -1,11 +1,10 @@
 #include <iostream>
-#include <fstream>
-#include"MainUI.h"
+#include "MainUI.h"
 
 using namespace std;
 
-int main()
-{
+int main() {
+
     MainUI ui;
     ui.startUI();
 
