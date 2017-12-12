@@ -13,7 +13,7 @@ void CustomerUI::customer_menu() {
     cout << "------------------------------" << endl;
     cout << "1. Panta pizzu" << endl;
     cout << "2. Sja pantadar pizzur" << endl;
-    cout << "2. Til baka" << endl;
+    cout << "3. Til baka" << endl;
 
         cout << ": ";
         cin >> selection;
