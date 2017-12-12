@@ -5,6 +5,7 @@ StaffUI::StaffUI() {
 }
 
 void StaffUI::staff_menu() {
+
     while(true) {
         char selection;
         cout << "------------------------------" << endl;
@@ -12,17 +13,18 @@ void StaffUI::staff_menu() {
         cout << "------------------------------" << endl;
         cout << "1. Alegg" << endl;
         cout << "2. Botn" << endl;
-        cout << "3. Bakka" << endl;
+        cout << "3. Til baka" << endl;
         cout << ": ";
         cin >> selection;
         if(selection == '1') {
+
             while(true) {
             cout << "------------------------------" << endl;
             cout << "Alegg                         " << endl;
             cout << "------------------------------" << endl;
             cout << "1. Stofna nytt alegg" << endl;
             cout << "2. Sja alegg" << endl;
-            cout << "3. Bakka" << endl;
+            cout << "3. Til baka" << endl;
             cout << ": ";
             cin >> selection;
             if(selection == '1') {
@@ -37,13 +39,14 @@ void StaffUI::staff_menu() {
                 cout << "Rangur innslattur!" << endl; }
             }
         }else if(selection == '2') {
+
             while(true) {
             cout << "------------------------------" << endl;
             cout << "Botnar                        " << endl;
             cout << "------------------------------" << endl;
             cout << "1. Breyta verdi a botnum" << endl;
             cout << "2. Sja verd a botnum" << endl;
-            cout << "3. Bakka" << endl;
+            cout << "3. Til baka" << endl;
             cout << ": ";
             cin >> selection;
             if(selection == '1') {
@@ -57,6 +60,7 @@ void StaffUI::staff_menu() {
             }else {
                 cout << "Rangur innslattur!" << endl; }
             }
+
         }else if(selection == '3') {
             break;
         }else {

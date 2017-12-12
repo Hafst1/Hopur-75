@@ -26,8 +26,9 @@
 	<cmath>
 	"Toppings.h"
 
-1512997525 c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\include\ui\customerui.h
+1513004739 c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\include\ui\customerui.h
 	<iostream>
+	"Pizza.h"
 
 1512997664 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\models\toppings.cpp
 	"Toppings.h"
@@ -35,13 +36,13 @@
 1512997525 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\repositories\toppingsrepository.cpp
 	"ToppingsRepository.h"
 
-1512997525 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\ui\customerui.cpp
+1513004719 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\ui\customerui.cpp
 	"CustomerUI.h"
 
 1512997524 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\ui\mainui.cpp
 	"MainUI.h"
 
-1512997525 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\ui\staffui.cpp
+1513004892 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\ui\staffui.cpp
 	"StaffUI.h"
 
 1512997664 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\models\base.cpp
@@ -62,4 +63,25 @@
 
 1512997525 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\repositories\baserepository.cpp
 	"BaseRepository.h"
+
+1513004474 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\models\pizza.cpp
+	"Pizza.h"
+
+1513004474 c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\include\models\pizza.h
+	<iostream>
+	<vector>
+	<string>
+	"PizzaRepository.h"
+	"ToppingsRepository.h"
+	"BaseRepository.h"
+
+1513004568 c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\include\repositories\pizzarepository.h
+	<iostream>
+	<fstream>
+	<string>
+	<cmath>
+	"Pizza.h"
+
+1513005098 source:c:\users\hafst\downloads\verklegt namskeid 1\pizzaverkefnid\pizza\src\repositories\pizzarepository.cpp
+	"PizzaRepository.h"
 
